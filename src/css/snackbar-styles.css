@@ -1,0 +1,34 @@
+form.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    margin: 50px auto;
+    font-family: 'Montserrat', sans-serif;
+    gap: 25px;
+  }
+  
+  form.form label {
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  form.form input[type="number"],
+  form.form input[type="radio"] {
+    margin-top: 5px;
+  }
+  
+  form.form button {
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.4s;
+    padding: 10px;
+    background-color: #95ff4e;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  
+  form.form button:hover {
+    background-color: #6C8CFF;
+  }

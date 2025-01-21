@@ -1,0 +1,65 @@
+.timer-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .datetime-picker {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+  }
+  
+  .datetime-picker input {
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #2c2c2c;
+  }
+  
+  .datetime-picker button {
+    padding: 10px 20px;
+    background-color: #e295fa;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+  }
+  
+  .datetime-picker button:hover {
+    background-color: #762eeb;
+    color: white;
+    transition: background-color 0.4s;
+  }
+  
+  .timer {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  
+  .timer .field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timer .value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2e2f42;
+  }
+  
+  .timer .label {
+    font-size: 14px;
+    color: #808080;
+  }
